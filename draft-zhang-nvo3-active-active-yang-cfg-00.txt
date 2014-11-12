@@ -374,7 +374,7 @@ INTERNET-DRAFT   YANG Data Model for Active-Active NVEs October 27, 2014
            }
          }
 
-         leaf vni {
+         leaf-list vni {
            type VNI;
            description
              "A VNI enabled for the end device identified by the 

@@ -106,7 +106,7 @@ module nvo3-aanve {
         }
       }
 
-      leaf vni {
+      leaf-list vni {
         type VNI;
         description
           "A VNI enabled for the end device identified by the 
